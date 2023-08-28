@@ -18,6 +18,7 @@ export default function Dashboard() {
         screen={PrimaryScreens.ScrollToIndex}
         title={'Scroll To Index'}
       />
+      <DashboardCard screen={PrimaryScreens.Switch} title={'Switch'} />
     </View>
   );
 }

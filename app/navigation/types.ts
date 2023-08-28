@@ -5,6 +5,7 @@ export enum PrimaryScreens {
   LoadingIndicator = 'loadingIndicator',
   RingIndicator = 'ringIndicator',
   ScrollToIndex = 'scrollToIndex',
+  Switch = 'switch',
 }
 
 export type PrimaryNavigationScreens = {
@@ -12,6 +13,7 @@ export type PrimaryNavigationScreens = {
   [PrimaryScreens.LoadingIndicator]: undefined;
   [PrimaryScreens.RingIndicator]: undefined;
   [PrimaryScreens.ScrollToIndex]: undefined;
+  [PrimaryScreens.Switch]: undefined;
 };
 
 export type PrimaryNagivationProps = NativeStackScreenProps<

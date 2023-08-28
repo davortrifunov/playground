@@ -6,6 +6,7 @@ import LoadingAnimation from '../features/loading_animation/LoadingAnimation';
 import { PrimaryScreens } from './types';
 import RingIndicator from '../features/ring_indicator/RingIndicator';
 import ScrollToIndex from '../features/scroll_to_index/ScrollToIndex';
+import Switch from '../features/switch/Switch';
 
 export const Stack = createNativeStackNavigator();
 
@@ -40,6 +41,13 @@ export default function Route() {
           component={ScrollToIndex}
           options={{
             title: 'Scroll To Index',
+          }}
+        />
+        <Stack.Screen
+          name={PrimaryScreens.Switch}
+          component={Switch}
+          options={{
+            title: 'Switch',
           }}
         />
       </Stack.Navigator>
