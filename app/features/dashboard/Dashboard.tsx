@@ -8,7 +8,11 @@ export default function Dashboard() {
     <View style={styles.flex}>
       <DashboardCard
         screen={PrimaryScreens.LoadingIndicator}
-        title={'Loading animation'}
+        title={'Loading Animation'}
+      />
+      <DashboardCard
+        screen={PrimaryScreens.RingIndicator}
+        title={'Ring Indicator'}
       />
     </View>
   );

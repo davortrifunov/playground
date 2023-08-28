@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Dashboard from '../features/dashboard/Dashboard';
 import LoadingAnimation from '../features/loading_animation/LoadingAnimation';
 import { PrimaryScreens } from './types';
+import RingIndicator from '../features/ring_indicator/RingIndicator';
 
 export const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,13 @@ export default function Route() {
           component={LoadingAnimation}
           options={{
             title: 'Loading Animation',
+          }}
+        />
+        <Stack.Screen
+          name={PrimaryScreens.RingIndicator}
+          component={RingIndicator}
+          options={{
+            title: 'Ring Indicator',
           }}
         />
       </Stack.Navigator>

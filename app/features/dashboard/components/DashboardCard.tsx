@@ -32,5 +32,10 @@ const styles = ScaledSheet.create({
     height: '40@ms',
     alignItems: 'center',
     justifyContent: 'center',
+    borderWidth: 1,
+    alignSelf: 'center',
+    marginVertical: '8@ms',
+    borderRadius: '20@ms',
+    borderColor: 'purple',
   },
 });
