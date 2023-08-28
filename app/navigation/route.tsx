@@ -5,6 +5,7 @@ import Dashboard from '../features/dashboard/Dashboard';
 import LoadingAnimation from '../features/loading_animation/LoadingAnimation';
 import { PrimaryScreens } from './types';
 import RingIndicator from '../features/ring_indicator/RingIndicator';
+import ScrollToIndex from '../features/scroll_to_index/ScrollToIndex';
 
 export const Stack = createNativeStackNavigator();
 
@@ -32,6 +33,13 @@ export default function Route() {
           component={RingIndicator}
           options={{
             title: 'Ring Indicator',
+          }}
+        />
+        <Stack.Screen
+          name={PrimaryScreens.ScrollToIndex}
+          component={ScrollToIndex}
+          options={{
+            title: 'Scroll To Index',
           }}
         />
       </Stack.Navigator>

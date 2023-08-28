@@ -14,6 +14,10 @@ export default function Dashboard() {
         screen={PrimaryScreens.RingIndicator}
         title={'Ring Indicator'}
       />
+      <DashboardCard
+        screen={PrimaryScreens.ScrollToIndex}
+        title={'Scroll To Index'}
+      />
     </View>
   );
 }

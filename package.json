@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@motify/components": "^0.18.0",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.9.13",
